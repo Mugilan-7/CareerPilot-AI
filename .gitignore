@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+frontend/dist/
+backend/target/
+
+# TypeScript build metadata
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# IDE and OS files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
